@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import YogaHome from "../assets/Yoga-home.png"
 const LandingPage = () => {
   return (
    <>
@@ -24,7 +24,7 @@ const LandingPage = () => {
         <di className="right  flex flex-col justify-center items-center">
           <img
             className="w-[60rem] md:w-[64rem]"
-            src="../../public/Yoga-home.png"
+            src={YogaHome}
             alt="yoga-2"
           />
         </di>

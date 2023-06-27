@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-
+import Icon from "../assets/Yoga-icon.jpg"
 
 const Navbar = () => {
   return (
@@ -10,7 +10,7 @@ const Navbar = () => {
     <nav className="bg-gray-100 border-gray-200 dark:bg-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <Link to="/" className="flex items-center"> 
-                <img src="../../public/Yoga-icon.jpg" className="h-8 mr-3 rounded-2xl" alt="yashtang-logo" />
+                <img src={Icon } className="h-8 mr-3 rounded-2xl" alt="yashtang-logo" />
                 <span className="self-center text-2xl font-semibold whitespace-nowrap text-green-600">Yshtang
                     Yogalaya</span>
             </Link>

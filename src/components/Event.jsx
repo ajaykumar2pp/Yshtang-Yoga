@@ -1,5 +1,12 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import YogaRelax from "../assets/Yoga-relax.jpg"
+import YogaChildren from "../assets/Yoga-children.jpg"
+import Yoga_six from "../assets/Yoga-6.jpg"
+import Yoga_three from "../assets/Yoga-3.avif"
+import Yoga_eight from "../assets/Yoga-8.jpg"
+import Yoga_sevent from "../assets/Yoga-7.jpg"
+
 const Event = () => {
   return (
     <div>
@@ -9,7 +16,7 @@ const Event = () => {
           <section className="blog-card grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 p-10 mt-10">
 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <Link to="/event">
-        <img className="rounded-t-lg" src="../../public/Yoga-relax.jpg" alt="" />
+        <img className="rounded-t-lg" src={YogaRelax} alt="" />
     </Link>
     <div className="p-5">
         <Link to="/event">
@@ -34,7 +41,7 @@ const Event = () => {
 
 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <Link to="/event">
-        <img className="rounded-t-lg" src="../../public/Yoga-children.jpg" alt="" />
+        <img className="rounded-t-lg" src={YogaChildren} alt="" />
     </Link>
     <div className="p-5">
         <Link to="/event">
@@ -59,7 +66,7 @@ const Event = () => {
 
 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <Link to="/event">
-        <img className="rounded-t-lg" src="../../public/Yoga-6.jpg" alt="" />
+        <img className="rounded-t-lg" src={Yoga_six} alt="" />
     </Link>
     <div className="p-5">
         <Link to="/event">
@@ -84,7 +91,7 @@ const Event = () => {
 
 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <Link to="/event">
-        <img className="rounded-t-lg" src="../../public/Yoga-3.avif" alt="" />
+        <img className="rounded-t-lg" src={Yoga_three} alt="" />
     </Link>
     <div className="p-5">
         <Link to="/event">
@@ -109,7 +116,7 @@ const Event = () => {
 
 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <Link to="/event">
-        <img className="rounded-t-lg" src="../../public/Yoga-7.jpg" alt="" />
+        <img className="rounded-t-lg" src={Yoga_sevent} alt="" />
     </Link>
     <div className="p-5">
         <Link to="/event">
@@ -134,7 +141,7 @@ const Event = () => {
 
 <div className="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
     <Link to="/event">
-        <img className="rounded-t-lg" src="../../public/Yoga-8.jpg" alt="" />
+        <img className="rounded-t-lg" src={Yoga_eight} alt="" />
     </Link>
     <div className="p-5">
         <Link to="/event">

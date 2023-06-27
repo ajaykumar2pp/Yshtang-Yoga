@@ -1,5 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import Icon from "../assets/Yoga-icon.jpg"
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
             <div className="md:flex md:justify-between">
                 <div className="mb-6 md:mb-0">
                     <Link to="/" className="flex items-center">
-                        <img src="../../public/Yoga-icon.jpg" className="h-8 mr-3 rounded-2xl" alt="yashtang-logo" />
+                        <img src={Icon} className="h-8 mr-3 rounded-2xl" alt="yashtang-logo" />
                         <span className="self-center text-2xl font-semibold whitespace-nowrap text-green-600">Yshtang
                             Yogalaya</span>
                     </Link>

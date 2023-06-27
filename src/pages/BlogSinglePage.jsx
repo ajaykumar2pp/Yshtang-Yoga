@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import Navbar from '../components/Navbar'
 import Footer from '../components/Footer'
 
+import Yoga_five from "../assets/Yoga-5.jpg"
+
 const BlogSinglePage = () => {
   return (
     <div>
@@ -10,14 +12,14 @@ const BlogSinglePage = () => {
     <section>
    <div className="heading mt-24">
      <h1 className="text-purple-800 text-center text-4xl font-bold underline ">
-       Single Blog
+       Yshtang Yoga
      </h1>
    </div>
  </section>
    <section className="blog-card  p-10 mt-8">
    <div className=" bg-white border rounded-lg shadow dark:bg-gray-800 ">
        <Link to="/single-blog"  className="md:flex md:justify-center lg:flex lg:justify-center">
-           <img className="h-auto max-w-full rounded-lg" src="../../public/Yoga-5.jpg" alt="" />
+           <img className="h-auto max-w-full rounded-lg" src={Yoga_five} alt="" />
        </Link>
        <div className="p-5">
            <Link to="/single-blog" >

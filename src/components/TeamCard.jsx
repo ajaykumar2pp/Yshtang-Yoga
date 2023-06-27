@@ -1,4 +1,8 @@
 import React from 'react'
+import team_one from "../assets/team-1.png"
+import team_two from "../assets/team-2.png"
+import team_three from "../assets/team-3.png"
+
 
 const TeamCard = () => {
   return (
@@ -13,7 +17,7 @@ const TeamCard = () => {
 
         <div className="cursor-pointer">
             <a href="">
-                <img className="h-auto max-w-full rounded-lg" src="../../public/team-1.png" alt="" />
+                <img className="h-auto max-w-full rounded-lg" src={team_one} alt="" />
             </a>
             <div className="p-5">
                 <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Anjali</h5>
@@ -24,7 +28,7 @@ const TeamCard = () => {
 
         <div className="">
             <a href="">
-                <img className="h-auto max-w-full rounded-lg" src="../../public/team-2.png" alt="" />
+                <img className="h-auto max-w-full rounded-lg" src={team_two} alt="" />
             </a>
             <div className="p-5">
                 <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Tanu</h5>
@@ -33,7 +37,7 @@ const TeamCard = () => {
         </div>
         <div className="">
             <a href="">
-                <img className="h-auto max-w-full rounded-lg" src="../../public/team-3.png" alt="" />
+                <img className="h-auto max-w-full rounded-lg" src={team_three} alt="" />
             </a>
             <div className="p-5">
                 <h5 className="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Vishal</h5>
