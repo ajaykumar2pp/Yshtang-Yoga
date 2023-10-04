@@ -1,14 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+
 
 import Yoga_five from "../assets/Yoga-5.jpg"
 
 const BlogSinglePage = () => {
   return (
     <div>
-      <Navbar />
+     
     <section>
    <div className="heading mt-24">
      <h1 className="text-purple-800 text-center text-4xl font-bold underline ">
@@ -45,7 +44,6 @@ const BlogSinglePage = () => {
 
 </section>
 
-<Footer />
 </div>
   )
 }

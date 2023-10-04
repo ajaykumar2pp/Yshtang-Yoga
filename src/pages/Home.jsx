@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "../components/Navbar";
 import LandingPage from "../components/LandingPage";
 import OurService from "../components/OurService";
 import Event from "../components/Event";
@@ -12,7 +11,7 @@ import Footer from "../components/Footer";
 const Home = () => {
   return (
     <div>
-      <Navbar />
+   
       <LandingPage />
       <OurService />
       <Event />
@@ -20,7 +19,7 @@ const Home = () => {
       <PriceCard />
       <Contact />
       <Blog />
-      <Footer />
+    
     </div>
   );
 };
